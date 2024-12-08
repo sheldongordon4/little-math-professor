@@ -1,6 +1,6 @@
 # Little Professor
 
-![Little Professor]([https://example.com/little-professor-logo.png](https://anythinginparticular.co.uk/wp-content/uploads/2018/10/P1270742.jpg))
+![Little Professor](https://anythinginparticular.co.uk/wp-content/uploads/2018/10/P1270742.jpg)
 
 ---
 
