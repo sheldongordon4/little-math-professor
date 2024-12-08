@@ -46,7 +46,7 @@ To ensure a smooth user experience, the program includes error handling for inva
 2. Save `professor.py` to your desired directory.
 3. Run the program in your terminal:
    ```bash
-   python professor.py```
+   python professor.py
 4. Follow the prompts to select a difficulty level and solve the math problems.
 
 
