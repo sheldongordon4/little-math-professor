@@ -1,5 +1,4 @@
 # Little Professor
-#### Video Demo: *[Insert Video Link]*
 
 ---
 
