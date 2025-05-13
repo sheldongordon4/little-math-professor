@@ -1,4 +1,4 @@
-# Little Professor
+# Little Professor - Python Math Quiz App
 
 ![Little Professor](https://anythinginparticular.co.uk/wp-content/uploads/2018/10/P1270742.jpg)
 
@@ -6,54 +6,59 @@
 
 ## Description
 
-The **Little Professor** program is a Python-based math quiz generator inspired by a childhood toy. It challenges users with 10 randomly generated addition problems at a difficulty level of their choosing. The program is interactive, tracks the user’s score, and provides corrective feedback when answers are incorrect.
+The **Little Professor** program is a Python-based math quiz generator inspired by the iconic childhood toy. It presents users with 10 randomly generated addition problems, offering an engaging and educational experience tailored to different skill levels.
+
+Designed for simplicity, interaction, and learning reinforcement, the app includes real-time feedback, score tracking, and adjustable difficulty settings.
 
 Key features include:
 
-- **Difficulty Levels**: Users can select a difficulty level (1, 2, or 3) to adjust the range of numbers used in the math problems.
-- **Error Feedback**: The program provides "EEE" feedback for incorrect answers and reveals the correct answer after three failed attempts.
-- **Score Tracking**: Displays the user's score out of 10 after completing all problems.
-- **Robust Input Handling**: Ensures user inputs are valid and prompts for re-entry if they are not.
+- **Difficulty Levels**
+Users can choose from levels 1, 2, or 3, which scale the number ranges for each problem.
+- **Error Feedback**
+Users receive "EEE" feedback for incorrect answers and are shown the correct answer after three failed attempts.
+- **Score Tracking**
+After 10 problems, the program displays the user’s final score out of 10.
+- **Robust Input Handling**
+Gracefully handles invalid input (e.g., non-integers or unsupported difficulty levels) and prompts re-entry.
 
 ---
 
-### Files
+### Files Overview
 
-#### `professor.py`
-The main Python script for the program, structured to:
-
-- Prompt the user to select a difficulty level (1, 2, or 3).
-- Randomly generate 10 math problems based on the selected difficulty.
-- Allow users three attempts to answer each problem correctly, displaying feedback for incorrect answers and showing the correct answer if all attempts are used.
-- Calculate and display the user's final score after all questions.
+`professor.py` - The main Python script handles:
+- Prompting for difficulty level
+- Generating and presenting 10 random addition problems
+- Allowing up to 3 attempts per problem
+- Providing instant feedback and showing correct answers
+- Calculating and displaying the final score
 
 ---
 
 ### Design Choices
 
 #### User Interaction
-The program engages users with interactive prompts, providing a clear and intuitive way to answer math problems. Feedback for incorrect answers helps reinforce learning.
+Clear prompts and feedback make the app easy to use for all ages.
 
 #### Difficulty Levels
-The inclusion of difficulty levels (1, 2, and 3) makes the program suitable for various skill levels, from beginners to advanced users.
+Difficulty levels support different age groups or learner stages.
 
 #### Error Handling
-To ensure a smooth user experience, the program includes error handling for invalid inputs, such as non-integer answers or unsupported difficulty levels.
+Validates all inputs to prevent crashes and confusion.
 
 ---
 
 ### How to Run
 
-1. Install Python 3.x.
-2. Save `professor.py` to your desired directory.
+1. Install **Python 3.x**
+2. Save `professor.py` to your desired directory
 3. Run the program in your terminal:
    ```bash
    python professor.py
-4. Follow the prompts to select a difficulty level and solve the math problems.
+4. Follow the prompts to select a difficulty level and complete the quiz
 
 
 ### Future Improvements
-- Expanded Operations: Include subtraction, multiplication, and division for greater variety.
-- Timed Challenges: Introduce a timer to increase difficulty and track completion times.
-- Persistent Scores: Allow users to save and review their scores across sessions.
-- GUI: Add a graphical user interface for enhanced interactivity.
+- Expanded Operations: Support for subtraction, multiplication, and division
+- Timed Challenges: Timed challenges for increased difficulty
+- Persistent Scores: Persistent scores for tracking progress
+- GUI: GUI version for enhanced accessibility
