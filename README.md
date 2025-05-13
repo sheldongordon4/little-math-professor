@@ -10,7 +10,7 @@ The **Little Professor** program is a Python-based math quiz generator inspired 
 
 Designed for simplicity, interaction, and learning reinforcement, the app includes real-time feedback, score tracking, and adjustable difficulty settings.
 
-Key features include:
+#### Key features include:
 
 - **Difficulty Levels**
 Users can choose from levels 1, 2, or 3, which scale the number ranges for each problem.
